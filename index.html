@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leap year</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container-fluid bg-secondary cont-custom">
+        <h1 class="text-danger text-center pt-2">Leap Year Detector!!</h1>
+        <p class="text-center">Enter a year to get to know if its a leap year or not</p>
+
+        <div class="form-cont text-center">
+            <form action="">
+                <div class="form-group">
+                    <div class="label">
+                        <label for="">Year</label>
+                    </div>
+                    <div class="form-1">
+                        <input id="year" type="number" placeholder="Enter Your Year">
+                    </div>
+                    <div class="button pt-2">
+                        <input type="button" value="Check" onclick="result()">
+                    </div>
+                </div>
+            </form>
+            <em><p id="answer"></p></em>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
